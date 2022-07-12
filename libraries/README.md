@@ -6,4 +6,4 @@
 https://zkitefly.github.io/Unlisted-versions-of-Minecraft/libraries/<file name>
 ```
 
-将 <file name> 替换成上传的文件名即可
+将 `<file name>` 替换成上传的文件名即可
