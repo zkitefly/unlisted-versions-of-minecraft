@@ -2,6 +2,8 @@
 
 [**Github**](https://github.com/zkitefly/Unlisted-versions-of-Minecraft) **|** [**Gitee**](https://gitee.com/bleaker/unlisted-versions-of-minecraft)
 
+*↑如果访问本页面困难，可以尝试切换仓库↑*
+
 ## 关于
 
 本仓库专门用于搜集可用的，在启动器下载列表中未列出的版本
