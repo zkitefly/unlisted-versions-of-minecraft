@@ -8,6 +8,8 @@
 
 这些版本的 .jar 和 .json 可能来自五湖四海，目前主要的来源是 PCL2 中的下载中，我会将来源做提示，但不保证文件的安全性，如果你发现了问题，请发 [Issues](https://github.com/zkitefly/Unlisted-versions-of-Minecraft/issues)
 
+**版权由 Mojang AB 所有。用户应当遵守 [MINECRAFT REALM 最终用户许可协议](https://www.minecraft.net/realms/terms)，否则本仓库作者不会承担任何责任。**
+
 ## 以下是目前收集的未列出的版本：
 
 > 以发布时间排序
