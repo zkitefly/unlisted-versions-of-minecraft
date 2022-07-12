@@ -34,7 +34,11 @@
 
 ### 其他启动器
 
+打开启动器的 .minecraft 文件夹
 
+将下载的文件解压，打开并找到 .minecraft 文件夹
+
+将该 .minecraft 覆盖到你启动器的 .minecraft 文件夹即可
 
 
 
