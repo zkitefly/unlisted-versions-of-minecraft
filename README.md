@@ -11,7 +11,7 @@
 非常欢迎大家分享所有在启动器中的未列出的版本。如要上传，请提交 [Pull requests（Github）](https://github.com/zkitefly/Unlisted-versions-of-Minecraft/pulls)
 
 上传规则：
-- 将的版本以下列文件结构打包成 `.zip` 格式文件：
+- 将 .json 和 .jar 文件以下列文件结构打包成 `.zip` 格式文件：
 ```
 [<versions name>]
   \
