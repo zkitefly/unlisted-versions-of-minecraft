@@ -30,7 +30,7 @@
 
 - .json 指定的文件须能访问和获取，如果你有 .json 指定的文件，你可以上传至 libraries 文件夹，[详情请看此（Github）](https://github.com/zkitefly/Unlisted-versions-of-Minecraft/tree/main/libraries)
   
-- 能够 Minecraft 官方启动器 以及 PCL2 、HMCL 、BakaXL 、和 MultiMC 启动。当然，最好是所有的主流启动器都能启动。
+- 能够在 Minecraft 官方启动器 以及 PCL2 、HMCL 、BakaXL 、和 MultiMC 启动。当然，最好是所有的主流启动器都能启动。
 
 **版权由 Mojang AB 所有。用户应当遵守 [MINECRAFT REALM 最终用户许可协议](https://www.minecraft.net/realms/terms)，本仓库作者不会承担相应责任。**
 
