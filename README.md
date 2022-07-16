@@ -32,7 +32,7 @@
   
 - 能够在 Minecraft 官方启动器 以及 PCL2 、HMCL 、BakaXL 、和 MultiMC 启动。当然，最好是所有的主流启动器都能启动。
 
-**版权由 Mojang AB 所有。用户应当遵守 [MINECRAFT REALM 最终用户许可协议](https://aka.ms/MinecraftEULA)，本仓库作者不会承担相应责任。**
+**版权由 Mojang AB 所有。用户应当遵守 [MINECRAFT 最终用户许可协议](https://aka.ms/MinecraftEULA)，本仓库作者不会承担相应责任。**
 
 ## 以下是目前收集的未列出的版本：
 
