@@ -26,7 +26,7 @@
          <versions name>.jar
          <versions name>.json
 ```
-'<versions name>' 替换成版本名字
+`<versions name>` 替换成版本名字
 
 - .json 指定的文件须能访问和获取，如果你有 .json 指定的文件，你可以上传至 libraries 文件夹，[详情请看此（Github）](https://github.com/zkitefly/Unlisted-versions-of-Minecraft/tree/main/libraries)
   
