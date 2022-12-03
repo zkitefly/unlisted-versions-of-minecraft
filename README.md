@@ -28,6 +28,8 @@
 ```
 `<versions name>` 替换成版本名字
 
+- 然后将其放入 `/files/[测试版、愚人节版或远古版/` 中
+
 - .json 指定的文件须能访问和获取，如果你有 .json 指定的文件，你可以上传至 libraries 文件夹，[详情请看此（Github）](https://github.com/zkitefly/Unlisted-versions-of-Minecraft/tree/main/libraries)
   
 - 能够在 Minecraft 官方启动器 以及 PCL2 、HMCL 、BakaXL 、和 MultiMC 启动。当然，最好是所有的主流启动器都能启动。
