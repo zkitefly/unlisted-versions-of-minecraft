@@ -1,4 +1,4 @@
-# Unlisted-versions-of-Minecraft
+# Unlisted versions of Minecraft
 
 [**Github**](https://github.com/zkitefly/Unlisted-versions-of-Minecraft) **|** [**Gitee**](https://gitee.com/bleaker/unlisted-versions-of-minecraft)
 
