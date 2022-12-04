@@ -3,7 +3,7 @@
 上传之后，将相关链接修改成
 
 ```
-https://zkitefly.github.io/Unlisted-versions-of-Minecraft/libraries/<file name>
+https://gitlab.com/zkitefly/Unlisted-versions-of-Minecraft/-/raw/main/libraries/<file name>
 ```
 
 将 `<file name>` 替换成上传的文件名即可
