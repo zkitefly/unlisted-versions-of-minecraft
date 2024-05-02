@@ -465,12 +465,12 @@
         {
             "id": "13w12~",
             "type": "snapshot",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/13w12~/13w12~.json",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/13w12-/13w12-.json",
             "time": "2013-03-19T00:00:00+00:00",
             "releaseTime": "2013-03-19T00:00:00+00:00"
         },
         {
-            "id": "b1.8-pre1",
+            "id": "b1.8-pre1-2",
             "type": "old_beta",
             "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1.8-pre1/b1.8-pre1.json",
             "time": "2011-09-09T00:00:00+00:00",
