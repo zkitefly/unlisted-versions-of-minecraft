@@ -1,0 +1,25 @@
+{
+    "other_versions": [
+        {
+            "id": "2point0_blue",
+            "url": "https://archive.org/download/2point-0-blue/2point0_blue.json",
+            "sha1": "a9add3b4aca10f190fec4dd460ccb4f0f9115d5f",
+            "size": "5614735",
+            "jar": "https://archive.org/download/2point-0-blue/2point0_blue.jar"
+        },
+        {
+            "id": "2point0_red",
+            "url": "https://archive.org/download/2point-0-red/2point0_red.json",
+            "sha1": "8da6087efaed9e2397d76e74dd558337cc47538f",
+            "size": "5570878",
+            "jar": "https://archive.org/download/2point-0-red/2point0_red.jar"
+        },
+        {
+            "id": "2point0_purple",
+            "url": "https://archive.org/download/2point-0-purple/2point0_purple.json",
+            "sha1": "ab9e35004d8dfa8f87419876cd9e0c0df9d2d949",
+            "size": "5616654",
+            "jar": "https://archive.org/download/2point-0-purple/2point0_purple.jar"
+        }
+    ]
+}
