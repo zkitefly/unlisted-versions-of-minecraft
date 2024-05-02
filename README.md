@@ -1,5 +1,7 @@
 # Unlisted versions of Minecraft
 
+**旧分支，我打算抛弃这个了（**
+
 [**Github**](https://github.com/zkitefly/Unlisted-versions-of-Minecraft) **|** [**Gitee**](https://gitee.com/bleaker/unlisted-versions-of-minecraft) | **[GitLab](https://gitlab.com/zkitefly/Unlisted-versions-of-Minecraft)**
 
 *↑如果访问本页面困难，可以尝试切换仓库↑*
