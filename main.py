@@ -34,7 +34,7 @@ def download_file(url, filename, max_retries=3, retry_delay=5):
     return  # 如果下载成功，则直接返回
 
 def iso8601_format(timestamp_str):
-    if 'T' in timestamp_str and '+' in timestamp_str:
+    if 'T' in timestamp_str:
         return timestamp_str  # 如果已经是 ISO 8601 格式，则直接返回
     else:
         timestamp = datetime.strptime(timestamp_str, '%Y-%m-%d')
@@ -75,6 +75,10 @@ def main():
     # 处理 old_snapshots.json
     with open('mojang-minecraft-old-snapshots.json', 'r') as f:
         old_snapshots_data = json.load(f)
+
+    # 处理 other_versions.json
+    with open('other-versions.json', 'r') as f:
+        other_versions_data = json.load(f)
     
     # 处理 experiments.json
     with open('mojang-minecraft-experiments.json', 'r') as f:
@@ -86,7 +90,7 @@ def main():
     
     # 处理 old_snapshots 列表
     for snapshot in old_snapshots_data['old_snapshots']:
-        id = snapshot['id'].replace('_', '.').replace('~', '-')  # 将 "_" 替换为 "."，13w12~ -> 13w12-，因为 GitHub Page 下载不了带 ~ 的东西（搞不懂）
+        id = snapshot['id'].replace('~', '-')  # 13w12~ -> 13w12-，因为 GitHub Page 下载不了带 ~ 的东西（搞不懂）
         url = snapshot['url']
         jar_url = snapshot['jar']
         
@@ -114,12 +118,12 @@ def main():
             fid = json_data['id']
             
             # 检查 releaseTime 和 time 属性是否处于 ISO 8601 格式
-            if 'T' not in releaseTime and '+' not in releaseTime:
+            if 'T' not in releaseTime:
                 print(f'Converting releaseTime for {id}...')
                 releaseTime = iso8601_format(releaseTime)
                 json_data['releaseTime'] = releaseTime
             
-            if 'T' not in time and '+' not in time:
+            if 'T' not in time:
                 print(f'Converting time for {id}...')
                 time = iso8601_format(time)
                 json_data['time'] = time
@@ -128,6 +132,63 @@ def main():
             if 'downloads' not in json_data:
                 sha1 = snapshot['sha1']
                 size = snapshot['size']
+                json_data['downloads'] = {
+                    'client': {
+                        'sha1': sha1,
+                        'size': size,
+                        'url': f'{BASE_URL}/{id}/{id}.jar'
+                    }
+                }
+                # 保存更新后的 JSON 文件
+                with open(json_filename, 'w') as json_file:
+                    json.dump(json_data, json_file, indent=4)
+            
+            update_version_manifest(fid, id, releaseTime, time, type)
+
+    # 处理 other_versions 列表
+    for other_versions in other_versions_data['other_versions']:
+        id = other_versions['id']
+        url = other_versions['url']
+        jar_url = other_versions['jar']
+        
+        # 创建以 id 命名的文件夹
+        folder_path = os.path.join(FILES_DIR, id)
+        if not os.path.exists(folder_path):
+            os.makedirs(folder_path)
+        
+        # 下载 JSON 文件并保存
+        json_filename = os.path.join(folder_path, f'{id}.json')
+        download_file(url, json_filename)
+        
+        # 下载 JAR 文件并保存
+        jar_filename = os.path.join(folder_path, f'{id}.jar')
+        download_file(jar_url, jar_filename)
+        
+        print(f'Downloaded {id}.json and {id}.jar')
+        
+        # 读取 JSON 文件并更新 version_manifest.json
+        with open(json_filename, 'r') as f:
+            json_data = json.load(f)
+            releaseTime = json_data['releaseTime']
+            time = json_data['time']
+            type = json_data['type']
+            fid = json_data['id']
+            
+            # 检查 releaseTime 和 time 属性是否处于 ISO 8601 格式
+            if 'T' not in releaseTime:
+                print(f'Converting releaseTime for {id}...')
+                releaseTime = iso8601_format(releaseTime)
+                json_data['releaseTime'] = releaseTime
+            
+            if 'T' not in time:
+                print(f'Converting time for {id}...')
+                time = iso8601_format(time)
+                json_data['time'] = time
+            
+            # 检查是否存在 downloads 属性，如果不存在则添加
+            if 'downloads' not in json_data:
+                sha1 = other_versions['sha1']
+                size = other_versions['size']
                 json_data['downloads'] = {
                     'client': {
                         'sha1': sha1,
