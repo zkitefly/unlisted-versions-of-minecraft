@@ -3,7 +3,7 @@
         {
             "id": "1.2",
             "type": "snapshot",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/1.2/1.2.json",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/1_2/1_2.json",
             "time": "2012-02-29T00:00:00+00:00",
             "releaseTime": "2012-02-29T00:00:00+00:00"
         },
@@ -472,58 +472,79 @@
         {
             "id": "b1.8-pre1-2",
             "type": "old_beta",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1.8-pre1/b1.8-pre1.json",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1_8-pre1/b1_8-pre1.json",
             "time": "2011-09-09T00:00:00+00:00",
             "releaseTime": "2011-09-09T00:00:00+00:00"
         },
         {
             "id": "b1.8-pre2",
             "type": "old_beta",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1.8-pre2/b1.8-pre2.json",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1_8-pre2/b1_8-pre2.json",
             "time": "2011-09-13T00:00:00+00:00",
             "releaseTime": "2011-09-13T00:00:00+00:00"
         },
         {
             "id": "b1.9-pre1",
             "type": "snapshot",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1.9-pre1/b1.9-pre1.json",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1_9-pre1/b1_9-pre1.json",
             "time": "2011-09-22T00:00:00+00:00",
             "releaseTime": "2011-09-22T00:00:00+00:00"
         },
         {
             "id": "b1.9-pre2",
             "type": "snapshot",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1.9-pre2/b1.9-pre2.json",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1_9-pre2/b1_9-pre2.json",
             "time": "2011-09-29T00:00:00+00:00",
             "releaseTime": "2011-09-29T00:00:00+00:00"
         },
         {
             "id": "b1.9-pre3",
             "type": "snapshot",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1.9-pre3/b1.9-pre3.json",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1_9-pre3/b1_9-pre3.json",
             "time": "2011-10-06T00:00:00+00:00",
             "releaseTime": "2011-10-06T00:00:00+00:00"
         },
         {
             "id": "b1.9-pre4",
             "type": "snapshot",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1.9-pre4/b1.9-pre4.json",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1_9-pre4/b1_9-pre4.json",
             "time": "2011-10-13T00:00:00+00:00",
             "releaseTime": "2011-10-13T00:00:00+00:00"
         },
         {
             "id": "b1.9-pre5",
             "type": "snapshot",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1.9-pre5/b1.9-pre5.json",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1_9-pre5/b1_9-pre5.json",
             "time": "2011-10-27T00:00:00+00:00",
             "releaseTime": "2011-10-27T00:00:00+00:00"
         },
         {
             "id": "b1.9-pre6",
             "type": "snapshot",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1.9-pre6/b1.9-pre6.json",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/b1_9-pre6/b1_9-pre6.json",
             "time": "2011-11-11T00:00:00+00:00",
             "releaseTime": "2011-11-11T00:00:00+00:00"
+        },
+        {
+            "id": "2point0_blue",
+            "type": "release",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/2point0_blue/2point0_blue.json",
+            "time": "2013-08-06T06:00:00-05:00",
+            "releaseTime": "2013-03-20T05:00:00-05:00"
+        },
+        {
+            "id": "2point0_red",
+            "type": "release",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/2point0_red/2point0_red.json",
+            "time": "2013-08-06T06:00:00-05:00",
+            "releaseTime": "2013-03-20T05:00:00-05:00"
+        },
+        {
+            "id": "2point0_purple",
+            "type": "release",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/2point0_purple/2point0_purple.json",
+            "time": "2013-08-06T06:00:00-05:00",
+            "releaseTime": "2013-03-20T05:00:00-05:00"
         },
         {
             "id": "1_19_deep_dark_experimental_snapshot-1",
