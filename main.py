@@ -112,6 +112,17 @@ def main():
             time = json_data['time']
             type = json_data['type']
             
+            # 检查 releaseTime 和 time 属性是否处于 ISO 8601 格式
+            if 'T' not in releaseTime and '+' not in releaseTime:
+                print(f'Converting releaseTime for {id}...')
+                releaseTime = iso8601_format(releaseTime)
+                json_data['releaseTime'] = releaseTime
+            
+            if 'T' not in time and '+' not in time:
+                print(f'Converting time for {id}...')
+                time = iso8601_format(time)
+                json_data['time'] = time
+            
             # 检查是否存在 downloads 属性，如果不存在则添加
             if 'downloads' not in json_data:
                 sha1 = snapshot['sha1']
