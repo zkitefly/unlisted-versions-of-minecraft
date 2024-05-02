@@ -97,6 +97,22 @@ def main():
             releaseTime = json_data['releaseTime']
             time = json_data['time']
             type = json_data['type']
+            
+            # 检查是否存在 downloads 属性，如果不存在则添加
+            if 'downloads' not in json_data:
+                sha1 = snapshot['sha1']
+                size = snapshot['size']
+                json_data['downloads'] = {
+                    'client': {
+                        'sha1': sha1,
+                        'size': size,
+                        'url': f'{BASE_URL}/{id}/{id}.jar'
+                    }
+                }
+                # 保存更新后的 JSON 文件
+                with open(json_filename, 'w') as json_file:
+                    json.dump(json_data, json_file, indent=4)
+            
             update_version_manifest(id, releaseTime, time, type)
     
     # 处理 experiments 列表
