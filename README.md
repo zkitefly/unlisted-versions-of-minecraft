@@ -4,7 +4,7 @@
 
 本仓库整理在启动器中未列出的版本，并提供启动器接口提供下载
 
-这些版本的数据来自 [PrismLauncher/meta](https://github.com/PrismLauncher/meta) 仓库。
+这些版本的数据来自 [PrismLauncher/meta](https://github.com/PrismLauncher/meta) 仓库和 [Minecraft Wiki](https://zh.minecraft.wiki/)。
 
 **版权由 Mojang AB 所有。**
 
