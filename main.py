@@ -40,7 +40,7 @@ def iso8601_format(timestamp_str):
         timestamp = datetime.strptime(timestamp_str, '%Y-%m-%d')
         return timestamp.isoformat() + '+00:00'
 
-def update_version_manifest(id, releaseTime_str, time_str, type):
+def update_version_manifest(fid, id, releaseTime_str, time_str, type):
     releaseTime = iso8601_format(releaseTime_str)
     time = iso8601_format(time_str)
     manifest_filename = 'version_manifest.json'
@@ -51,7 +51,7 @@ def update_version_manifest(id, releaseTime_str, time_str, type):
         manifest_data = {'versions': []}
     
     new_version = {
-        'id': id,
+        'id': fid,
         'type': type,
         'url': f'{BASE_URL}/{id}/{id}.json',
         'time': time,
@@ -86,7 +86,7 @@ def main():
     
     # 处理 old_snapshots 列表
     for snapshot in old_snapshots_data['old_snapshots']:
-        id = snapshot['id'].replace('_', '.')  # 将 "_" 替换为 "."
+        id = snapshot['id'].replace('_', '.').replace('~', '-')  # 将 "_" 替换为 "."，13w12~ -> 13w12-，因为 GitHub Page 下载不了带 ~ 的东西（搞不懂）
         url = snapshot['url']
         jar_url = snapshot['jar']
         
@@ -111,6 +111,7 @@ def main():
             releaseTime = json_data['releaseTime']
             time = json_data['time']
             type = json_data['type']
+            fid = json_data['id']
             
             # 检查 releaseTime 和 time 属性是否处于 ISO 8601 格式
             if 'T' not in releaseTime and '+' not in releaseTime:
@@ -138,7 +139,7 @@ def main():
                 with open(json_filename, 'w') as json_file:
                     json.dump(json_data, json_file, indent=4)
             
-            update_version_manifest(id, releaseTime, time, type)
+            update_version_manifest(fid, id, releaseTime, time, type)
     
     # 处理 experiments 列表
     for experiment in experiments_data['experiments']:
@@ -170,7 +171,7 @@ def main():
             releaseTime = json_data['releaseTime']
             time = json_data['time']
             type = json_data['type']
-            update_version_manifest(id, releaseTime, time, type)
+            update_version_manifest(id, id, releaseTime, time, type)
 
 if __name__ == "__main__":
     main()
