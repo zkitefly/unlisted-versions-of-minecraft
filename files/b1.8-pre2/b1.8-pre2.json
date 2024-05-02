@@ -8,8 +8,8 @@
     },
     "assets": "pre-1.6",
     "minimumLauncherVersion": 7,
-    "releaseTime": "2011-09-13",
-    "time": "2011-09-13",
+    "releaseTime": "2011-09-13T00:00:00+00:00",
+    "time": "2011-09-13T00:00:00+00:00",
     "type": "old_beta",
     "id": "b1.8-pre2",
     "libraries": [

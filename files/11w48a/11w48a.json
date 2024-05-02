@@ -9,8 +9,8 @@
     "assets": "pre-1.6",
     "id": "11w48a",
     "minimumLauncherVersion": 4,
-    "releaseTime": "2011-12-01",
-    "time": "2011-12-01",
+    "releaseTime": "2011-12-01T00:00:00+00:00",
+    "time": "2011-12-01T00:00:00+00:00",
     "type": "snapshot",
     "libraries": [
         {
