@@ -4,9 +4,13 @@ import json
 import zipfile
 from datetime import datetime
 import time
+import shutil
+
+# 文件夹名称
+FILES_DIR = 'files'
 
 # 文件基础 URL
-BASE_URL = 'https://zkitefly.github.io/unlisted-versions-of-minecraft/files'
+BASE_URL = f'https://zkitefly.github.io/unlisted-versions-of-minecraft/{FILES_DIR}'
 
 def download_file(url, filename, max_retries=3, retry_delay=5):
     retries = 0
@@ -30,8 +34,11 @@ def download_file(url, filename, max_retries=3, retry_delay=5):
     return  # 如果下载成功，则直接返回
 
 def iso8601_format(timestamp_str):
-    timestamp = datetime.strptime(timestamp_str, '%Y-%m-%d')
-    return timestamp.isoformat() + 'Z'
+    if 'T' in timestamp_str and '+' in timestamp_str:
+        return timestamp_str  # 如果已经是 ISO 8601 格式，则直接返回
+    else:
+        timestamp = datetime.strptime(timestamp_str, '%Y-%m-%d')
+        return timestamp.isoformat() + '+00:00'
 
 def update_version_manifest(id, releaseTime_str, time_str, type):
     releaseTime = iso8601_format(releaseTime_str)
@@ -47,7 +54,6 @@ def update_version_manifest(id, releaseTime_str, time_str, type):
         'id': id,
         'type': type,
         'url': f'{BASE_URL}/{id}/{id}.json',
-        'jar': f'{BASE_URL}/{id}/{id}.jar',
         'time': time,
         'releaseTime': releaseTime
     }
@@ -58,6 +64,14 @@ def update_version_manifest(id, releaseTime_str, time_str, type):
         json.dump(manifest_data, f, indent=4)
 
 def main():
+    # 删除 version_manifest.json 文件和 files 文件夹（如果存在）
+    if os.path.exists('version_manifest.json'):
+        os.remove('version_manifest.json')
+        print('Deleted existing version_manifest.json')
+    if os.path.exists(FILES_DIR):
+        shutil.rmtree(FILES_DIR)
+        print(f'Deleted existing {FILES_DIR} directory')
+
     # 处理 old_snapshots.json
     with open('mojang-minecraft-old-snapshots.json', 'r') as f:
         old_snapshots_data = json.load(f)
@@ -67,8 +81,8 @@ def main():
         experiments_data = json.load(f)
     
     # 创建文件夹
-    if not os.path.exists('files'):
-        os.makedirs('files')
+    if not os.path.exists(FILES_DIR):
+        os.makedirs(FILES_DIR)
     
     # 处理 old_snapshots 列表
     for snapshot in old_snapshots_data['old_snapshots']:
@@ -77,7 +91,7 @@ def main():
         jar_url = snapshot['jar']
         
         # 创建以 id 命名的文件夹
-        folder_path = os.path.join('files', id)
+        folder_path = os.path.join(FILES_DIR, id)
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
         
@@ -121,7 +135,7 @@ def main():
         url = experiment['url']
         
         # 创建以 id 命名的文件夹
-        folder_path = os.path.join('files', id)
+        folder_path = os.path.join(FILES_DIR, id)
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
         
@@ -131,7 +145,7 @@ def main():
         
         # 解压 ZIP 文件并提取 JSON 文件
         with zipfile.ZipFile(zip_filename, 'r') as zip_ref:
-            zip_ref.extract(f'{id}/{id}.json', folder_path)
+            zip_ref.extract(f'{id}/{id}.json', FILES_DIR)
         
         # 删除 ZIP 文件
         os.remove(zip_filename)
