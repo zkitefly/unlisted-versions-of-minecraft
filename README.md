@@ -14,6 +14,10 @@
 https://zkitefly.github.io/unlisted-versions-of-minecraft/version_manifest.json
 ```
 
+```
+https://gitee.com/bleaker/unlisted-versions-of-minecraft/raw/gitee/version_manifest.json
+```
+
 格式与 [version_manifest.json](https://zh.minecraft.wiki/w/Version_manifest.json) 保持一致
 
 ## 手动安装
