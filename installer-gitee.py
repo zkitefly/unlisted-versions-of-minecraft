@@ -34,7 +34,7 @@ def download_selected_version():
         download_file(version_id, url, versions_folder)
 
 def download_file(version_id, url, download_path):
-    file_name = version_id
+    file_name = version_id + ".json"
     full_path = os.path.join(download_path, file_name)
     urllib.request.urlretrieve(url, full_path)
     status_label.config(text=f"下载完成 {file_name} 到 {download_path}")
