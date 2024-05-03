@@ -29,7 +29,8 @@ jobs:
 
     - name: Build installer
       run: |
-        pyinstaller --onefile *.py
+        pyinstaller --onefile installer.py
+        pyinstaller --onefile installer-gitee.py
 
     - name: Upload artifact
       uses: actions/upload-artifact@main
