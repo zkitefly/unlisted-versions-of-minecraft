@@ -61,6 +61,9 @@ def update_version_manifest(fid, id, releaseTime_str, time_str, type):
     manifest_data['versions'].append(new_version)
     
     with open(manifest_filename, 'w') as f:
+        json.dump(manifest_data, f)
+    
+    with open("raw-" + manifest_filename, 'w') as f:
         json.dump(manifest_data, f, indent=4)
 
 def main():
