@@ -31,10 +31,10 @@ def download_selected_version():
         export_path = export_entry.get()
         versions_folder = os.path.join(export_path, "versions", version_id)
         os.makedirs(versions_folder, exist_ok=True)
-        download_file(url, versions_folder)
+        download_file(version_id, url, versions_folder)
 
-def download_file(url, download_path):
-    file_name = url.split('/')[-1]
+def download_file(version_id, url, download_path):
+    file_name = version_id
     full_path = os.path.join(download_path, file_name)
     urllib.request.urlretrieve(url, full_path)
     status_label.config(text=f"下载完成 {file_name} 到 {download_path}")
@@ -53,7 +53,7 @@ def fetch_versions():
 
 # 创建主窗口
 root = tk.Tk()
-root.title("unlisted-versions-of-minecraft 版本下载器 - v1.1")
+root.title("unlisted-versions-of-minecraft 版本下载器 - v1.2")
 
 # 创建下载路径输入框和按钮
 export_frame = ttk.Frame(root)
