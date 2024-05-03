@@ -144,7 +144,7 @@ def main():
                 }
                 # 保存更新后的 JSON 文件
                 with open(json_filename, 'w') as json_file:
-                    json.dump(json_data, json_file, indent=4)
+                    json.dump(json_data, json_file)
             
             update_version_manifest(fid, id, releaseTime, time, type)
 
@@ -201,7 +201,7 @@ def main():
                 }
                 # 保存更新后的 JSON 文件
                 with open(json_filename, 'w') as json_file:
-                    json.dump(json_data, json_file, indent=4)
+                    json.dump(json_data, json_file)
             
             update_version_manifest(fid, id, releaseTime, time, type)
     
