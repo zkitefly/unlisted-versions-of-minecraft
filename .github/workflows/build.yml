@@ -34,5 +34,5 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@main
       with:
-        name: Installer
+        name: Installer-${{ matrix.os }}
         path: dist
