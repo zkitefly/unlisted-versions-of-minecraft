@@ -10,7 +10,7 @@ import shutil
 FILES_DIR = 'files'
 
 # 文件基础 URL
-BASE_URL = f'https://zkitefly.github.io/unlisted-versions-of-minecraft/{FILES_DIR}'
+BASE_URL = f'https://gitee.com/bleaker/unlisted-versions-of-minecraft/raw/gitee/{FILES_DIR}'
 
 def download_file(url, filename, max_retries=3, retry_delay=5):
     retries = 0
