@@ -20,7 +20,13 @@ https://gitee.com/bleaker/unlisted-versions-of-minecraft/raw/gitee/version_manif
 
 格式与 [version_manifest.json](https://zh.minecraft.wiki/w/Version_manifest.json) 保持一致
 
-## 手动安装
+## 安装
+
+### 安装器
+
+使用 [Releases](https://github.com/zkitefly/unlisted-versions-of-minecraft/releases) 的安装器快速安装。
+
+### 手动安装
 
 前往 `files` 目录中，找到你想下载的版本，下载该版本的 json 文件
 
