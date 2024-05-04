@@ -23,7 +23,7 @@ def replace_in_json(file_path):
     replace_recursively(data)
     
     with open(file_path, 'w', encoding='utf-8') as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
+        json.dump(data, file, ensure_ascii=False)
 
 def process_directory(directory):
     for item in os.listdir(directory):
