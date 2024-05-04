@@ -20,6 +20,524 @@
             "sha1": "ab9e35004d8dfa8f87419876cd9e0c0df9d2d949",
             "size": "5616654",
             "jar": "https://archive.org/download/2point-0-purple/2point0_purple.jar"
+        },
+        {
+            "id": "c0.29_02",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.29_02/c0.29_02.json",
+            "sha1": "285563",
+            "size": "6a6f92b691f9d6b7ca991a6db8a1cfc6e319815b",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.29_02/c0.29_02.jar"
+        },
+        {
+            "id": "c0.29_01",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.29_01/c0.29_01.json",
+            "sha1": "285561",
+            "size": "bb5e7f1c231f45fd630f30a75570937c103f5b55",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.29_01/c0.29_01.jar"
+        },
+        {
+            "id": "c0.28_01",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.28_01/c0.28_01.json",
+            "sha1": "284844",
+            "size": "7ccde270abacd028d3618be99537ccf7071a605b",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.28_01/c0.28_01.jar"
+        },
+        {
+            "id": "c0.30-2",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.30-2/c0.30-2.json",
+            "sha1": "291588",
+            "size": "51bc951530207b538596941a6f353f87dfc24233",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.30-2/c0.30-2.jar"
+        },
+        {
+            "id": "c0.30-1",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.30-1/c0.30-1.json",
+            "sha1": "291582",
+            "size": "619ea74c6d0ae5c0125d1e31e299105e100139ab",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.30-1/c0.30-1.jar"
+        },
+        {
+            "id": "c0.27_st",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.27_st/c0.27_st.json",
+            "sha1": "280722",
+            "size": "aff4060249dd6152012218e120d7aad5e758de83",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.27_st/c0.27_st.jar"
+        },
+        {
+            "id": "c0.25_05_st",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.25_05_st/c0.25_05_st.json",
+            "sha1": "254705",
+            "size": "349630cb1b895335c38b499f84dc28d9f8a38513",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.25_05_st/c0.25_05_st.jar"
+        },
+        {
+            "id": "c0.24_st_03",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.24_st_03/c0.24_st_03.json",
+            "sha1": "248203",
+            "size": "0b387d2087edda894fae4af00de5ac202dbffa7c",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.24_st_03/c0.24_st_03.jar"
+        },
+        {
+            "id": "c0.0.23a_01",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.23a_01/c0.0.23a_01.json",
+            "sha1": "193575",
+            "size": "b9884f960f2b28a36b34db3447963f1ff4058aa4",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.23a_01/c0.0.23a_01.jar"
+        },
+        {
+            "id": "c0.0.22a_05",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.22a_05/c0.0.22a_05.json",
+            "sha1": "178817",
+            "size": "85159cea8663ed720be88ca0ee008a5830b0829a",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.22a_05/c0.0.22a_05.jar"
+        },
+        {
+            "id": "c0.0.21a",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.21a/c0.0.21a.json",
+            "sha1": "133657",
+            "size": "83b6483feb88136b6b4662b553d8f80f5f88efa5",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.21a/c0.0.21a.jar"
+        },
+        {
+            "id": "c0.0.20a_01",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.20a_01/c0.0.20a_01.json",
+            "sha1": "133751",
+            "size": "c2f8fddde4691d7c567c0c049ad4d03eb6b9e61c",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.20a_01/c0.0.20a_01.jar"
+        },
+        {
+            "id": "c0.0.19a_06-2",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.19a_06-2/c0.0.19a_06-2.json",
+            "sha1": "123546",
+            "size": "e2b248f1013933af9f801729418409fb7198de1b",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.19a_06-2/c0.0.19a_06-2.jar"
+        },
+        {
+            "id": "c0.0.18a_02",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.18a_02/c0.0.18a_02.json",
+            "sha1": "112242",
+            "size": "a78468abd491d6c661c000f60d6270a692ba4710",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.18a_02/c0.0.18a_02.jar"
+        },
+        {
+            "id": "c0.0.17a",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.17a/c0.0.17a.json",
+            "sha1": "109092",
+            "size": "ca840460a6589552c9d1978ca121bf3e7c16a010",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.17a/c0.0.17a.jar"
+        },
+        {
+            "id": "c0.0.16a_02",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.16a_02/c0.0.16a_02.json",
+            "sha1": "104721",
+            "size": "741eb3f84097fdcc0327230e018a0f8cd39addfb",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.16a_02/c0.0.16a_02.jar"
+        },
+        {
+            "id": "c0.0.15a-1",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.15a-1/c0.0.15a-1.json",
+            "sha1": "99608",
+            "size": "51b159eb1ba6d420a64708d116913d51d307f769",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.15a-1/c0.0.15a-1.jar"
+        },
+        {
+            "id": "c0.0.14a_08",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.14a_08/c0.0.14a_08.json",
+            "sha1": "92351",
+            "size": "e8aa74a5bee547097375d44ffb2e407b2ea8ee4d",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.14a_08/c0.0.14a_08.jar"
+        },
+        {
+            "id": "c0.0.12a_03",
+            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.12a_03/c0.0.12a_03.json",
+            "sha1": "46554",
+            "size": "501ea8a6274faffe0144d3b24ed56797ce0765ff",
+            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.12a_03/c0.0.12a_03.jar"
+        },
+        {
+            "id": "in-20100223",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100223/in-20100223.json",
+            "sha1": "555633",
+            "size": "801ce486bb7fd1b43a56bc5d226dfb1370c08678",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100223/in-20100223.jar"
+        },
+        {
+            "id": "in-20100219",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100219/in-20100219.json",
+            "sha1": "501269",
+            "size": "af3d7f95ca75e130a9c5c74be0a9c09600a15686",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100219/in-20100219.jar"
+        },
+        {
+            "id": "in-20100218",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100218/in-20100218.json",
+            "sha1": "492366",
+            "size": "2ba9e9a2bdac1e8af6a36819e9bb01375889b078",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100218/in-20100218.jar"
+        },
+        {
+            "id": "in-20100214-2",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100214-2/in-20100214-2.json",
+            "sha1": "486799",
+            "size": "dcbe38d0e4ac2caec7e5c0f9ebcb0ec9179dcdff",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100214-2/in-20100214-2.jar"
+        },
+        {
+            "id": "in-20100214-1",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100214-1/in-20100214-1.json",
+            "sha1": "487947",
+            "size": "e6bb9306dab60626ba6ffd24fc9742fd272f5acb",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100214-1/in-20100214-1.jar"
+        },
+        {
+            "id": "in-20100212-2",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100212-2/in-20100212-2.json",
+            "sha1": "484884",
+            "size": "f1ae7e37e52b33753b35402e581eb65dc5bba877",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100212-2/in-20100212-2.jar"
+        },
+        {
+            "id": "in-20100212-1",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100212-1/in-20100212-1.json",
+            "sha1": "485564",
+            "size": "5275aaf68d6388ef8278b575e95ae83ad641fe3e",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100212-1/in-20100212-1.jar"
+        },
+        {
+            "id": "in-20100207-2",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100207-2/in-20100207-2.json",
+            "sha1": "464930",
+            "size": "fa8525be5612d00f6001be7d4cdb764b66e88f9d",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100207-2/in-20100207-2.jar"
+        },
+        {
+            "id": "in-20100207-1",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100207-1/in-20100207-1.json",
+            "sha1": "464114",
+            "size": "054e3d3f4e2c0463f80aa323767e018e6c23c1cd",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100207-1/in-20100207-1.jar"
+        },
+        {
+            "id": "in-20100206-2103",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100206-2103/in-20100206-2103.json",
+            "sha1": "472808",
+            "size": "049b002cdd164e5c5e9b78780b12ab4dc2e80120",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100206-2103/in-20100206-2103.jar"
+        },
+        {
+            "id": "in-20091223-2",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20091223-2/in-20091223-2.json",
+            "sha1": "1806614",
+            "size": "94ee2e7aa7d093fa8dfc684baa8bd8afe002580f",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20091223-2/in-20091223-2.jar"
+        },
+        {
+            "id": "in-20091231-2",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20091231-2/in-20091231-2.json",
+            "sha1": "1818088",
+            "size": "3161652a6835c61817fda6fe13245c57528ed418",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20091231-2/in-20091231-2.jar"
+        },
+        {
+            "id": "in-20100105",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100105/in-20100105.json",
+            "sha1": "390818",
+            "size": "38958105bfe0f7064b3c4996905cb6978d4d4b0b",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100105/in-20100105.jar"
+        },
+        {
+            "id": "in-20100111-1",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100111-1/in-20100111-1.json",
+            "sha1": "405878",
+            "size": "a0b58472ebf12f7e562b09b8a51dcb4cacc57005",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100111-1/in-20100111-1.jar"
+        },
+        {
+            "id": "in-20100125-1",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100125-1/in-20100125-1.json",
+            "sha1": "446210",
+            "size": "2cd03bcfc26c95bcf31b5d5e1d4dda7dc071ca6a",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100125-1/in-20100125-1.jar"
+        },
+        {
+            "id": "in-20100125-2",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100125-2/in-20100125-2.json",
+            "sha1": "449238",
+            "size": "baf0c7b1e231f0984e1c35e27f38eea2743f8ee2",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100125-2/in-20100125-2.jar"
+        },
+        {
+            "id": "in-20100128-2304",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100128-2304/in-20100128-2304.json",
+            "sha1": "465256",
+            "size": "3f2418f906d438b26ae6c9dbbadf3942f5845504",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100128-2304/in-20100128-2304.jar"
+        },
+        {
+            "id": "in-20100129",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100129/in-20100129.json",
+            "sha1": "755157",
+            "size": "03b858d31c090b629f406aa1d548ac7b25341f02",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100129/in-20100129.jar"
+        },
+        {
+            "id": "in-20100130",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100130/in-20100130.json",
+            "sha1": "785518",
+            "size": "c871e820d5356b88b3ad854789162f8b9227c80c",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100130/in-20100130.jar"
+        },
+        {
+            "id": "in-20100201-2",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100201-2/in-20100201-2.json",
+            "sha1": "796780",
+            "size": "1f2ca31fc761207bcabc07f0cf4b725a9a3286e4",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100201-2/in-20100201-2.jar"
+        },
+        {
+            "id": "in-20100201-3",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100201-3/in-20100201-3.json",
+            "sha1": "799075",
+            "size": "38d4df5132077ac60f0bdf67564f5fff4ee309e2",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100201-3/in-20100201-3.jar"
+        },
+        {
+            "id": "in-20100203",
+            "url": "https://archive.org/download/Minecraft-JE-Indev/in-20100203/in-20100203.json",
+            "sha1": "449670",
+            "size": "b2abb22e001abf01ca7555ced5d6024350955d70",
+            "jar": "https://archive.org/download/Minecraft-JE-Indev/in-20100203/in-20100203.jar"
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
+        },
+        {
+            "id": "",
+            "url": "",
+            "sha1": "",
+            "size": "",
+            "jar": ""
         }
     ]
 }
