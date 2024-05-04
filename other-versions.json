@@ -470,74 +470,235 @@
             "jar": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100327/inf-20100327.jar"
         },
         {
-            "id": "",
-            "url": "",
-            "sha1": "",
-            "size": "",
-            "jar": ""
+            "id": "inf-20100630-2",
+            "url": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100630-2/inf-20100630-2.json",
+            "sha1": "723550",
+            "size": "88c1931650b0e5be349017e124a7785a745111e9",
+            "jar": "https://archive.org/download/Minecraft-JE-Infdev/inf-20100630-2/inf-20100630-2.jar"
+        },
+        {
+            "id": "a1.0.1_01",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.1_01/a1.0.1_01.json",
+            "sha1": "739711",
+            "size": "02c57723da508aab36455782904bfd6e3e1023e6",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.1_01/a1.0.1_01.jar"
+        },
+        {
+            "id": "a1.0.2_01",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.2_01/a1.0.2_01.json",
+            "sha1": "741502",
+            "size": "7457e763ad81eee1e63628d628647f53806dab7c",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.2_01/a1.0.2_01.jar"
         },
         {
             "id": "",
-            "url": "",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.2_02/a1.0.2_02.json",
             "sha1": "",
             "size": "",
-            "jar": ""
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.2_02/a1.0.2_02.jar"
         },
         {
-            "id": "",
-            "url": "",
-            "sha1": "",
-            "size": "",
-            "jar": ""
+            "id": "a1.0.3",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.3/a1.0.3.json",
+            "sha1": "743840",
+            "size": "31e9736457ef3e0bfea69c720137a1bd8ba7caae",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.3/a1.0.3.jar"
         },
         {
-            "id": "",
-            "url": "",
-            "sha1": "",
-            "size": "",
-            "jar": ""
+            "id": "a1.0.5",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.5/a1.0.5.json",
+            "sha1": "780225",
+            "size": "fe189e91a3e7166d46fad8ce53ba0ce34b4c5f97",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.5/a1.0.5.jar"
         },
         {
-            "id": "",
-            "url": "",
-            "sha1": "",
-            "size": "",
-            "jar": ""
+            "id": "a1.0.6",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6/a1.0.6.json",
+            "sha1": "809457",
+            "size": "5f26478ce68ead9fc1e3557645ebbd4ce15434a6",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6/a1.0.6.jar"
         },
         {
-            "id": "",
-            "url": "",
-            "sha1": "",
-            "size": "",
-            "jar": ""
+            "id": "a1.0.6_01",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6_01/a1.0.6_01.json",
+            "sha1": "810490",
+            "size": "39b27a069c84f7cc9ec51016b04606287abe4510",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6_01/a1.0.6_01.jar"
         },
         {
-            "id": "",
-            "url": "",
-            "sha1": "",
-            "size": "",
-            "jar": ""
+            "id": "a1.0.6_03",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6_03/a1.0.6_03.json",
+            "sha1": "810537",
+            "size": "a7cff59dff577866bda2855a88381c9fb6167b50",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.6_03/a1.0.6_03.jar"
         },
         {
-            "id": "",
-            "url": "",
-            "sha1": "",
-            "size": "",
-            "jar": ""
+            "id": "a1.0.7",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.7/a1.0.7.json",
+            "sha1": "814463",
+            "size": "4432fd447b644b033499bd32f2c8441753ade34a",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.7/a1.0.7.jar"
         },
         {
-            "id": "",
-            "url": "",
-            "sha1": "",
-            "size": "",
-            "jar": ""
+            "id": "a1.0.8_01",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.8_01/a1.0.8_01.json",
+            "sha1": "817777",
+            "size": "d8cf8d4bb7ef7e244c367966e859f9d5e4a3839d",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.8_01/a1.0.8_01.jar"
         },
         {
-            "id": "",
-            "url": "",
-            "sha1": "",
-            "size": "",
-            "jar": ""
+            "id": "a1.0.9",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.9/a1.0.9.json",
+            "sha1": "821374",
+            "size": "282a23b83310c1e56b46c6e7362dad6a1f448ca0",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.9/a1.0.9.jar"
+        },
+        {
+            "id": "a1.0.10",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.10/a1.0.10.json",
+            "sha1": "828710",
+            "size": "f3ce3c8dade481981114ac0a59fe0b554504cd9a",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.10/a1.0.10.jar"
+        },
+        {
+            "id": "a1.0.12",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.12/a1.0.12.json",
+            "sha1": "837694",
+            "size": "7e66f054416d2a103417abab6fe1f426c9551e0e",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.12/a1.0.12.jar"
+        },
+        {
+            "id": "a1.0.13",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13/a1.0.13.json",
+            "sha1": "843350",
+            "size": "3ed66eb6ab40d3b71235c7fc1064575821ce1830",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13/a1.0.13.jar"
+        },
+        {
+            "id": "a1.0.13_01-1",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13_01-1/a1.0.13_01-1.json",
+            "sha1": "843401",
+            "size": "bb680bcaa6334c73d10bba7c7a29b4c112d4cdce",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13_01-1/a1.0.13_01-1.jar"
+        },
+        {
+            "id": "a1.0.13_01-2",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13_01-2/a1.0.13_01-2.json",
+            "sha1": "843414",
+            "size": "7d6efcd302b730c834a9d8040584bf71a7f97d02",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.13_01-2/a1.0.13_01-2.jar"
+        },
+        {
+            "id": "a1.0.14-1",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.14-1/a1.0.14-1.json",
+            "sha1": "852817",
+            "size": "439be76e595fa0850636bd2a2ba991b30c651c7f",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.14-1/a1.0.14-1.jar"
+        },
+        {
+            "id": "a1.0.14-2",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.14-2/a1.0.14-2.json",
+            "sha1": "852834",
+            "size": "5f2965a915fa9f040e6f908cf64e1ee5ba1db44e",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.14-2/a1.0.14-2.jar"
+        },
+        {
+            "id": "a1.0.16_01",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.16_01/a1.0.16_01.json",
+            "sha1": "860314",
+            "size": "dafa923dfc1034c995380ff958dc4e3745001998",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.16_01/a1.0.16_01.jar"
+        },
+        {
+            "id": "a1.0.16_02",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.16_02/a1.0.16_02.json",
+            "sha1": "860260",
+            "size": "b45ada7f4f421298be217e805d2ccd41e3421c6a",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.16_02/a1.0.16_02.jar"
+        },
+        {
+            "id": "a1.0.17_03",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.17_03/a1.0.17_03.json",
+            "sha1": "867329",
+            "size": "d0bfecc9966d6106b304dd219cf73f5e6670203b",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.0.17_03/a1.0.17_03.jar"
+        },
+        {
+            "id": "a1.1.0-1",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.0-1/a1.1.0-1.json",
+            "sha1": "872811",
+            "size": "ea8db151ce4d1b2d4c60beb6ebc0abb65e8d7444",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.0-1/a1.1.0-1.jar"
+        },
+        {
+            "id": "a1.1.0-2",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.0-2/a1.1.0-2.json",
+            "sha1": "873031",
+            "size": "66e8319d9b34662cdaf985ec3c1e0e926fcad46e",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.0-2/a1.1.0-2.jar"
+        },
+        {
+            "id": "a1.1.1",
+            "url": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.1/a1.1.1%20%28Moresteck%27s%20grey%20screen%20fix%29.json",
+            "sha1": "897098",
+            "size": "6a7c34f0cfc8607fa6ecf171df33a316ab927ced",
+            "jar": "https://archive.org/download/Minecraft-JE-Alpha/a1.1.1/a1.1.1.jar"
+        },
+        {
+            "id": "b1.8-pre1-1",
+            "url": "https://archive.org/download/Minecraft-JSONs/b1.8-pre1-1.json",
+            "sha1": "1890166",
+            "size": "81fe0f9ec4b1d9f861482e4bad2a076dd4ed3e44",
+            "jar": "https://vault.omniarchive.uk/archive/java/client-beta/b1.8/pre/b1.8-pre1-081459.jar"
+        },
+        {
+            "id": "b1.6-tb3",
+            "url": "https://archive.org/download/Minecraft-JE-Beta/Prereleases/b1.6-tb3/b1.6-tb3.json",
+            "sha1": "1421293",
+            "size": "3eddb7fd2e960b19e70a53358d513d4d1dfc43bf",
+            "jar": "https://vault.omniarchive.uk/archive/java/client-beta/b1.6/pre/b1.6-tb3.jar"
+        },
+        {
+            "id": "b1.1-1",
+            "url": "https://archive.org/download/Minecraft-JE-Beta/b1.1-1/b1.1-1.json",
+            "sha1": "1129358",
+            "size": "366af727742cff91e37af5cb3155927dfe44fc66",
+            "jar": "https://archive.org/download/Minecraft-JE-Beta/b1.1-1/b1.1-1.jar"
+        },
+        {
+            "id": "b1.1-2",
+            "url": "https://archive.org/download/Minecraft-JE-Beta/b1.1-2/b1.1-2.json",
+            "sha1": "1129359",
+            "size": "e6499cd774ebc3f0b633d6fdd8c5a84149ad0aad",
+            "jar": "https://archive.org/download/Minecraft-JE-Beta/b1.1-2/b1.1-2.jar"
+        },
+        {
+            "id": "1.0.0-rc2-1",
+            "url": "https://archive.org/download/Minecraft-JE-Beta/1.0.0-rc2-1/1.0.0-rc2-1.json",
+            "sha1": "2242191",
+            "size": "9e04e60eef3fb4657b406dcb3ad5e3a675ecf6af",
+            "jar": "https://vault.omniarchive.uk/archive/java/client-release/1.0.0/pre/1.0.0-rc2-1633.jar"
+        },
+        {
+            "id": "1.0.0-rc2-2",
+            "url": "https://archive.org/download/Minecraft-JE-Beta/1.0.0-rc2-2/1.0.0-rc2-2.json",
+            "sha1": "2242209",
+            "size": "6a6b67d34149afc47cf9608b3967582639097df9",
+            "jar": "https://vault.omniarchive.uk/archive/java/client-release/1.0.0/pre/1.0.0-rc2-1649.jar"
+        },
+        {
+            "id": "1.0.0-rc2-3",
+            "url": "https://archive.org/download/Minecraft-JE-Beta/1.0.0-rc2-3/1.0.0-rc2-3.json",
+            "sha1": "2242211",
+            "size": "6e54fbe19b7797f3e3a2cb9feb5da41a40926db8",
+            "jar": "https://vault.omniarchive.uk/archive/java/client-release/1.0.0/pre/1.0.0-rc2-1656.jar"
+        },
+        {
+            "id": "1.0.0-rc1",
+            "url": "https://archive.org/download/Minecraft-JE-Beta/Prereleases/1.0.0-rc1/1.0.0-rc1.json",
+            "sha1": "2242107",
+            "size": "4df7880d26414b400640f0b8e54344df2b66c51a",
+            "jar": "https://vault.omniarchive.uk/archive/java/client-release/1.0.0/pre/1.0.0-rc1.jar"
         }
     ]
 }
