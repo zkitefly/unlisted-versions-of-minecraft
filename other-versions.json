@@ -134,13 +134,6 @@
             "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.16a_02/c0.0.16a_02.jar"
         },
         {
-            "id": "c0.0.15a-1",
-            "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.15a-1/c0.0.15a-1.json",
-            "sha1": "99608",
-            "size": "51b159eb1ba6d420a64708d116913d51d307f769",
-            "jar": "https://archive.org/download/Minecraft-JE-Classic/c0.0.15a-1/c0.0.15a-1.jar"
-        },
-        {
             "id": "c0.0.14a_08",
             "url": "https://archive.org/download/Minecraft-JE-Classic/c0.0.14a_08/c0.0.14a_08.json",
             "sha1": "92351",
