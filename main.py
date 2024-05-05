@@ -238,7 +238,7 @@ def main():
             json_data = json.load(f)
             releaseTime = json_data['releaseTime']
             time = json_data['time']
-            type = json_data['type'].replace('pending', 'snapshot')
+            type = json_data['type']
             update_version_manifest(id, id, releaseTime, time, type)
 
 if __name__ == "__main__":
