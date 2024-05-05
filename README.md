@@ -32,12 +32,6 @@ https://gitee.com/bleaker/unlisted-versions-of-minecraft/raw/gitee/version_manif
 -Dhttp.proxyHost=betacraft.uk -Djava.util.Arrays.useLegacyMergeSort=true
 ```
 
-#### 正式版 1.0.0 ~ 最新版本
-
-```
--Dhttp.proxyHost=betacraft.uk -Dhttp.proxyPort=11707
-```
-
 ## 安装
 
 ### 安装器
