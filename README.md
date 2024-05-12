@@ -20,18 +20,6 @@ https://gitee.com/bleaker/unlisted-versions-of-minecraft/raw/gitee/version_manif
 
 格式与 [version_manifest.json](https://zh.minecraft.wiki/w/Version_manifest.json) 保持一致
 
-## 关于游戏内无声的问题
-
-由于版本过于老旧，一些版本无法下载到所需要的资源，导致游戏内无声的情况
-
-可尝试在启动器的 Java 虚拟机参数中**追加**如下内容（该参数来自 [BetaCraft](https://github.com/betacraftuk)）
-
-#### Classic ~ Beta 1.8
-
-```
--Dhttp.proxyHost=betacraft.uk -Djava.util.Arrays.useLegacyMergeSort=true
-```
-
 ## 安装
 
 ### 安装器
@@ -47,3 +35,17 @@ https://gitee.com/bleaker/unlisted-versions-of-minecraft/raw/gitee/version_manif
 进入 `versions` 目录，新建一个文件夹，命名为该 json 的名称
 
 回到启动器刷新版本列表即可找到该版本，启动游戏即可！
+
+## 关于游戏内无声的问题
+
+在确认设置中开启声音的情况下，游玩时不会听到任何声音
+
+可能是由于版本过于老旧，一些版本无法下载到所需要的资源文件，导致游戏内无声音
+
+可尝试在启动器的 Java 虚拟机参数中追加如下参数，并确保网络通畅，然后重新启动游戏
+
+```
+-Dhttp.proxyHost=betacraft.uk
+```
+
+###### 该参数来自 [Betacraft](https://github.com/betacraftuk)
