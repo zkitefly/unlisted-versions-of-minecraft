@@ -60,6 +60,9 @@ def update_version_manifest(fid, id, releaseTime_str, time_str, type):
     
     manifest_data['versions'].append(new_version)
     
+    # 根据 releaseTime 属性降序排序 versions 列表
+    manifest_data['versions'] = sorted(manifest_data['versions'], key=lambda x: x['releaseTime'], reverse=True)
+    
     with open(manifest_filename, 'w') as f:
         json.dump(manifest_data, f)
     
