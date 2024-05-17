@@ -219,17 +219,12 @@ def main():
                 }
                 json_data['assets'] = "pre-1.6"
 
-            if fid in ["a1.1.1"]:
-                json_data['libraries'] = {
-                    "name": "org.lwjgl.lwjgl:lwjgl:2.9.3-grayscreenfix",
-                    "downloads": {
-                        "artifact": {
-                            "url": "https://github.com/zkitefly/unlisted-versions-of-minecraft/releases/download/lwjgl-2.9.3-grayscreenfix.jar/lwjgl-2.9.3-grayscreenfix.jar",
-                            "sha1": "cc356d8bff8be85c23b23a1388b460074c68a7d5",
-                            "size": 1042948
-                        }
-                    }
-                }
+            # 如果 id 是特定值，则替换特定的 URL
+            if fid == "a1.1.1":
+                json_string = json.dumps(json_data)  # 将字典转换为JSON字符串
+                json_string = json_string.replace("http://files.betacraft.pl/launcher/assets/lwjgl-2.9.3-grayscreenfix.jar", "https://github.com/zkitefly/unlisted-versions-of-minecraft/releases/download/lwjgl-2.9.3-grayscreenfix.jar/lwjgl-2.9.3-grayscreenfix.jar")
+                json_data = json.loads(json_string)  # 将JSON字符串转换回字典
+
             
             # 保存更新后的 JSON 文件
             with open(json_filename, 'w') as json_file:
