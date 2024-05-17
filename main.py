@@ -147,9 +147,10 @@ def main():
                     'size': size,
                     'url': f'{BASE_URL}/{id}/{id}.jar'
                 }
-                # 保存更新后的 JSON 文件
-                with open(json_filename, 'w') as json_file:
-                    json.dump(json_data, json_file)
+            
+            # 保存更新后的 JSON 文件
+            with open(json_filename, 'w') as json_file:
+                json.dump(json_data, json_file)
             
             update_version_manifest(fid, id, releaseTime, time, type)
 
@@ -206,32 +207,33 @@ def main():
                     'size': size,
                     'url': f'{BASE_URL}/{id}/{id}.jar'
                 }
-                # 保存更新后的 JSON 文件
-                with open(json_filename, 'w') as json_file:
-                    json.dump(json_data, json_file)
             
-        # 如果 id 是指定的值，添加数据
-        if id in ["2point0_blue", "2point0_purple", "2point0_red"]:
-            json_data['assetIndex'] = {
-                "id": "pre-1.6",
-                "sha1": "4759bad2824e419da9db32861fcdc3a274336532",
-                "size": 73813,
-                "totalSize": 49381897,
-                "url": "https://launchermeta.mojang.com/v1/packages/4759bad2824e419da9db32861fcdc3a274336532/pre-1.6.json"
-            }
-            json_data['assets'] = "pre-1.6"
+            # 如果 fid 是指定的值，添加数据
+            if fid in ["2point0_blue", "2point0_purple", "2point0_red"]:
+                json_data['assetIndex'] = {
+                    "id": "pre-1.6",
+                    "sha1": "4759bad2824e419da9db32861fcdc3a274336532",
+                    "size": 73813,
+                    "totalSize": 49381897,
+                    "url": "https://launchermeta.mojang.com/v1/packages/4759bad2824e419da9db32861fcdc3a274336532/pre-1.6.json"
+                }
+                json_data['assets'] = "pre-1.6"
 
-        if id in ["a1.1.1"]:
-            json_data['libraries'] = {
-                "name": "org.lwjgl.lwjgl:lwjgl:2.9.3-grayscreenfix",
-                "downloads": {
-                    "artifact": {
-                        "url": "https://github.com/zkitefly/unlisted-versions-of-minecraft/releases/download/lwjgl-2.9.3-grayscreenfix.jar/lwjgl-2.9.3-grayscreenfix.jar",
-                        "sha1": "cc356d8bff8be85c23b23a1388b460074c68a7d5",
-                        "size": 1042948
+            if fid in ["a1.1.1"]:
+                json_data['libraries'] = {
+                    "name": "org.lwjgl.lwjgl:lwjgl:2.9.3-grayscreenfix",
+                    "downloads": {
+                        "artifact": {
+                            "url": "https://github.com/zkitefly/unlisted-versions-of-minecraft/releases/download/lwjgl-2.9.3-grayscreenfix.jar/lwjgl-2.9.3-grayscreenfix.jar",
+                            "sha1": "cc356d8bff8be85c23b23a1388b460074c68a7d5",
+                            "size": 1042948
+                        }
                     }
                 }
-            }
+            
+            # 保存更新后的 JSON 文件
+            with open(json_filename, 'w') as json_file:
+                json.dump(json_data, json_file)
 
             update_version_manifest(fid, id, releaseTime, time, type)
     
