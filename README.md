@@ -14,8 +14,11 @@
 https://zkitefly.github.io/unlisted-versions-of-minecraft/version_manifest.json
 ```
 
-```
-https://gitee.com/bleaker/unlisted-versions-of-minecraft/raw/gitee/version_manifest.json
+如果要大陆加速，可以将链接前缀修改成：
+
+```diff
+- https://zkitefly.github.io/unlisted-versions-of-minecraft
++ https://gitee.com/bleaker/unlisted-versions-of-minecraft/raw/main
 ```
 
 格式与 [version_manifest.json](https://zh.minecraft.wiki/w/Version_manifest.json) 保持一致
