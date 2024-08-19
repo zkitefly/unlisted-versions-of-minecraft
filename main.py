@@ -43,6 +43,13 @@ def iso8601_format(timestamp_str):
 def update_version_manifest(fid, id, releaseTime_str, time_str, type):
     releaseTime = iso8601_format(releaseTime_str)
     time = iso8601_format(time_str)
+
+    # 处理 c0.28_01 的日月颠倒问题
+    if time = "2017-20-09T03:19:48+01:00":
+        time = "2017-09-20T03:19:48+01:00"
+    if releaseTime = "2009-27-10T00:00:00+00:00":
+        releaseTime = "2009-10-27T00:00:00+00:00"
+
     manifest_filename = 'version_manifest.json'
     if os.path.exists(manifest_filename):
         with open(manifest_filename, 'r') as f:
