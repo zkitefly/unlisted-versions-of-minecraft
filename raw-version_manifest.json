@@ -144,15 +144,15 @@
             "id": "2point0_blue",
             "type": "release",
             "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/2point0_blue/2point0_blue.json",
-            "time": "2013-08-06T06:00:00-05:00",
-            "releaseTime": "2013-03-20T05:00:00-05:00"
+            "time": "2013-08-06T06:00:02-05:00",
+            "releaseTime": "2013-03-20T05:00:02-05:00"
         },
         {
             "id": "2point0_red",
             "type": "release",
             "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/2point0_red/2point0_red.json",
-            "time": "2013-08-06T06:00:00-05:00",
-            "releaseTime": "2013-03-20T05:00:00-05:00"
+            "time": "2013-08-06T06:00:01-05:00",
+            "releaseTime": "2013-03-20T05:00:01-05:00"
         },
         {
             "id": "2point0_purple",
@@ -1219,13 +1219,6 @@
             "releaseTime": "2010-01-05T00:00:00-00:00"
         },
         {
-            "id": "c0.28_01",
-            "type": "old_alpha",
-            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/c0.28_01/c0.28_01.json",
-            "time": "2017-09-20T03:19:48+01:00",
-            "releaseTime": "2009-10-27T00:00:00+00:00"
-        },
-        {
             "id": "in-20091231-2",
             "type": "old_alpha",
             "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/in-20091231-2/in-20091231-2.json",
@@ -1266,6 +1259,13 @@
             "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/c0.29_01/c0.29_01.json",
             "time": "2021-06-26T12:16:50+00:00",
             "releaseTime": "2009-10-29T00:00:00+00:00"
+        },
+        {
+            "id": "c0.28_01",
+            "type": "old_alpha",
+            "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/files/c0.28_01/c0.28_01.json",
+            "time": "2017-09-20T03:19:48+01:00",
+            "releaseTime": "2009-10-27T00:00:00+00:00"
         },
         {
             "id": "c0.27_st",

@@ -44,11 +44,15 @@ def update_version_manifest(fid, id, releaseTime_str, time_str, type):
     releaseTime = iso8601_format(releaseTime_str)
     time = iso8601_format(time_str)
 
-    # 处理 c0.28_01 的日月颠倒问题
-    if time = "2017-20-09T03:19:48+01:00":
-        time = "2017-09-20T03:19:48+01:00"
-    if releaseTime = "2009-27-10T00:00:00+00:00":
-        releaseTime = "2009-10-27T00:00:00+00:00"
+    # 处理 2point0_blue 2point0_red 2point0_purple 时间相同问题
+    if time == "2013-08-06T06:00:00-05:00" and releaseTime == "2013-03-20T05:00:00-05:00" and id == "2point0_blue":
+        releaseTime = "2013-03-20T05:00:02-05:00"
+        time = "2013-08-06T06:00:02-05:00"
+    if time == "2013-08-06T06:00:00-05:00" and releaseTime == "2013-03-20T05:00:00-05:00" and id == "2point0_red":
+        releaseTime = "2013-03-20T05:00:01-05:00"
+        time = "2013-08-06T06:00:01-05:00"
+    # if time == "2013-08-06T06:00:00-05:00" and releaseTime == "2013-03-20T05:00:00-05:00" and id == "2point0_purple":
+
 
     manifest_filename = 'version_manifest.json'
     if os.path.exists(manifest_filename):
@@ -114,11 +118,11 @@ def main():
         
         # 下载 JSON 文件并保存
         json_filename = os.path.join(folder_path, f'{id}.json')
-        download_file(url, json_filename)
+        download_file("https://cdn.crashmc.com/" + url, json_filename)
         
         # 下载 JAR 文件并保存
         jar_filename = os.path.join(folder_path, f'{id}.jar')
-        download_file(jar_url, jar_filename)
+        download_file("https://cdn.crashmc.com/" + jar_url, jar_filename)
         
         print(f'Downloaded {id}.json and {id}.jar')
         
@@ -132,12 +136,12 @@ def main():
             
             # 检查 releaseTime 和 time 属性是否处于 ISO 8601 格式
             if 'T' not in releaseTime:
-                print(f'Converting releaseTime for {id}...')
+                # print(f'Converting releaseTime for {id}...')
                 releaseTime = iso8601_format(releaseTime)
                 json_data['releaseTime'] = releaseTime
             
             if 'T' not in time:
-                print(f'Converting time for {id}...')
+                # print(f'Converting time for {id}...')
                 time = iso8601_format(time)
                 json_data['time'] = time
             
@@ -174,11 +178,11 @@ def main():
         
         # 下载 JSON 文件并保存
         json_filename = os.path.join(folder_path, f'{id}.json')
-        download_file(url, json_filename)
+        download_file("https://cdn.crashmc.com/" + url, json_filename)
         
         # 下载 JAR 文件并保存
         jar_filename = os.path.join(folder_path, f'{id}.jar')
-        download_file(jar_url, jar_filename)
+        download_file("https://cdn.crashmc.com/" + jar_url, jar_filename)
         
         print(f'Downloaded {id}.json and {id}.jar')
         
@@ -192,12 +196,12 @@ def main():
             
             # 检查 releaseTime 和 time 属性是否处于 ISO 8601 格式
             if 'T' not in releaseTime:
-                print(f'Converting releaseTime for {id}...')
+                # print(f'Converting releaseTime for {id}...')
                 releaseTime = iso8601_format(releaseTime)
                 json_data['releaseTime'] = releaseTime
             
             if 'T' not in time:
-                print(f'Converting time for {id}...')
+                # print(f'Converting time for {id}...')
                 time = iso8601_format(time)
                 json_data['time'] = time
             
@@ -228,10 +232,16 @@ def main():
 
             # 如果 id 是特定值，则替换特定的 URL
             if fid == "a1.1.1":
-                json_string = json.dumps(json_data)  # 将字典转换为JSON字符串
-                json_string = json_string.replace("http://files.betacraft.pl/launcher/assets/lwjgl-2.9.3-grayscreenfix.jar", "https://github.com/zkitefly/unlisted-versions-of-minecraft/releases/download/lwjgl-2.9.3-grayscreenfix.jar/lwjgl-2.9.3-grayscreenfix.jar")
-                json_data = json.loads(json_string)  # 将JSON字符串转换回字典
+                json_string = json.dumps(json_data)
+                json_string = json_string.replace("https://files.betacraft.uk/launcher/assets/lwjgl-2.9.3-grayscreenfix.jar", "https://mirror.ghproxy.com/https://github.com/zkitefly/unlisted-versions-of-minecraft/releases/download/lwjgl-2.9.3-grayscreenfix.jar/lwjgl-2.9.3-grayscreenfix.jar")
+                json_data = json.loads(json_string)
 
+            # 处理 c0.28_01 的日月颠倒问题
+            if time == "2017-20-09T03:19:48+01:00" and releaseTime == "2009-27-10T00:00:00+00:00" and id == "c0.28_01":
+                time = "2017-09-20T03:19:48+01:00"
+                releaseTime = "2009-10-27T00:00:00+00:00"
+                json_data['time'] = time
+                json_data['releaseTime'] = releaseTime
             
             # 保存更新后的 JSON 文件
             with open(json_filename, 'w') as json_file:
@@ -251,7 +261,7 @@ def main():
         
         # 下载 ZIP 文件并保存
         zip_filename = os.path.join(folder_path, f'{id}.zip')
-        download_file(url, zip_filename)
+        download_file("https://cdn.crashmc.com/" + url, zip_filename)
         
         # 解压 ZIP 文件并提取 JSON 文件
         with zipfile.ZipFile(zip_filename, 'r') as zip_ref:
