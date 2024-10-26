@@ -159,6 +159,18 @@ def main():
                     'url': f'{BASE_URL}/{id}/{id}.jar'
                 }
             
+            json_data['libraries'] += {
+                "name": "com.zero:retrowrapper:1.7.8",
+                "downloads": {
+                    "artifact": {
+                        "path": "com/zero/retrowrapper/1.7.8/RetroWrapper-1.7.8.jar",
+                        "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/libraries/RetroWrapper-1.7.8.jar",
+                        "sha1": "ea9175b4aebe091ae8859f7352fe59077a62bdf4",
+                        "size": 181263
+                    }
+                }
+            }
+            
             # 保存更新后的 JSON 文件
             with open(json_filename, 'w') as json_file:
                 json.dump(json_data, json_file)
@@ -242,6 +254,18 @@ def main():
                 releaseTime = "2009-10-27T00:00:00+00:00"
                 json_data['time'] = time
                 json_data['releaseTime'] = releaseTime
+
+            json_data['libraries'] += {
+                "name": "com.zero:retrowrapper:1.7.8",
+                "downloads": {
+                    "artifact": {
+                        "path": "com/zero/retrowrapper/1.7.8/RetroWrapper-1.7.8.jar",
+                        "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/libraries/RetroWrapper-1.7.8.jar",
+                        "sha1": "ea9175b4aebe091ae8859f7352fe59077a62bdf4",
+                        "size": 181263
+                    }
+                }
+            }
             
             # 保存更新后的 JSON 文件
             with open(json_filename, 'w') as json_file:

@@ -39,16 +39,6 @@ https://zkitefly.github.io/unlisted-versions-of-minecraft/version_manifest.json
 
 回到启动器刷新版本列表即可找到该版本，启动游戏即可！
 
-## 关于游戏内无声的问题
+## 关于本仓库对旧版本的支持
 
-在确认设置中开启声音的情况下，游玩时不会听到任何声音
-
-可能是由于版本过于老旧，一些版本无法下载到所需要的资源文件，导致游戏内无声音
-
-可尝试在启动器的 Java 虚拟机参数中追加如下参数，并确保网络通畅，然后重新启动游戏
-
-```
--Dhttp.proxyHost=betacraft.uk
-```
-
-###### 该参数来自 [Betacraft](https://github.com/betacraftuk)
+本仓库添加了 [NeRdTheNed/RetroWrapper](https://github.com/NeRdTheNed/RetroWrapper) 的补丁，以修复并正常运行旧版本。
