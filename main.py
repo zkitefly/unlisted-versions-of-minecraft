@@ -159,7 +159,7 @@ def main():
                     'url': f'{BASE_URL}/{id}/{id}.jar'
                 }
             
-            json_data['libraries'] += {
+            json_data['libraries'].append({
                 "name": "com.zero:retrowrapper:1.7.8",
                 "downloads": {
                     "artifact": {
@@ -169,7 +169,7 @@ def main():
                         "size": 181263
                     }
                 }
-            }
+            })
             
             # 保存更新后的 JSON 文件
             with open(json_filename, 'w') as json_file:
@@ -255,7 +255,7 @@ def main():
                 json_data['time'] = time
                 json_data['releaseTime'] = releaseTime
 
-            json_data['libraries'] += {
+            json_data['libraries'].append({
                 "name": "com.zero:retrowrapper:1.7.8",
                 "downloads": {
                     "artifact": {
@@ -265,7 +265,7 @@ def main():
                         "size": 181263
                     }
                 }
-            }
+            })
             
             # 保存更新后的 JSON 文件
             with open(json_filename, 'w') as json_file:
