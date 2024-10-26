@@ -40,7 +40,7 @@ def download_file(version_id, url, download_path):
     status_label.config(text=f"下载完成 {file_name} 到 {download_path}")
 
 def fetch_versions():
-    version_manifest = "https://gitee.com/bleaker/unlisted-versions-of-minecraft/raw/gitee/version_manifest.json"
+    version_manifest = "https://raw.gitcode.com/zkitefly/unlisted-versions-of-minecraft/raw/main/version_manifest.json"
     with urllib.request.urlopen(version_manifest) as response:
         data = json.loads(response.read().decode())
         versions = data["versions"]
@@ -53,7 +53,7 @@ def fetch_versions():
 
 # 创建主窗口
 root = tk.Tk()
-root.title("unlisted-versions-of-minecraft 版本下载器 - v1.3")
+root.title("unlisted-versions-of-minecraft 版本下载器 - v1.4")
 
 # 创建下载路径输入框和按钮
 export_frame = ttk.Frame(root)

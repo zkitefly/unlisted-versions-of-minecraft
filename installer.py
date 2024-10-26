@@ -53,7 +53,7 @@ def fetch_versions():
 
 # 创建主窗口
 root = tk.Tk()
-root.title("unlisted-versions-of-minecraft 版本下载器 - v1.3")
+root.title("unlisted-versions-of-minecraft 版本下载器 - v1.4")
 
 # 创建下载路径输入框和按钮
 export_frame = ttk.Frame(root)
