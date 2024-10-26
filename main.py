@@ -118,11 +118,11 @@ def main():
         
         # 下载 JSON 文件并保存
         json_filename = os.path.join(folder_path, f'{id}.json')
-        download_file("https://cdn.crashmc.com/" + url, json_filename)
+        download_file("https://cfp.zkitefly.eu.org/" + url, json_filename)
         
         # 下载 JAR 文件并保存
         jar_filename = os.path.join(folder_path, f'{id}.jar')
-        download_file("https://cdn.crashmc.com/" + jar_url, jar_filename)
+        download_file("https://cfp.zkitefly.eu.org/" + jar_url, jar_filename)
         
         print(f'Downloaded {id}.json and {id}.jar')
         
@@ -190,11 +190,11 @@ def main():
         
         # 下载 JSON 文件并保存
         json_filename = os.path.join(folder_path, f'{id}.json')
-        download_file("https://cdn.crashmc.com/" + url, json_filename)
+        download_file("https://cfp.zkitefly.eu.org/" + url, json_filename)
         
         # 下载 JAR 文件并保存
         jar_filename = os.path.join(folder_path, f'{id}.jar')
-        download_file("https://cdn.crashmc.com/" + jar_url, jar_filename)
+        download_file("https://cfp.zkitefly.eu.org/" + jar_url, jar_filename)
         
         print(f'Downloaded {id}.json and {id}.jar')
         
@@ -285,7 +285,7 @@ def main():
         
         # 下载 ZIP 文件并保存
         zip_filename = os.path.join(folder_path, f'{id}.zip')
-        download_file("https://cdn.crashmc.com/" + url, zip_filename)
+        download_file("https://cfp.zkitefly.eu.org/" + url, zip_filename)
         
         # 解压 ZIP 文件并提取 JSON 文件
         with zipfile.ZipFile(zip_filename, 'r') as zip_ref:
