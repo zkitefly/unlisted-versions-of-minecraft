@@ -163,8 +163,8 @@ def main():
                 "name": "com.zero:retrowrapper:1.7.8",
                 "downloads": {
                     "artifact": {
-                        "path": "com/zero/retrowrapper/1.7.8/RetroWrapper-1.7.8.jar",
-                        "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/libraries/RetroWrapper-1.7.8.jar",
+                        "path": "com/zero/retrowrapper/1.7.8/retrowrapper-1.7.8.jar",
+                        "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/libraries/retrowrapper-1.7.8.jar",
                         "sha1": "ea9175b4aebe091ae8859f7352fe59077a62bdf4",
                         "size": 181263
                     }
@@ -259,8 +259,8 @@ def main():
                 "name": "com.zero:retrowrapper:1.7.8",
                 "downloads": {
                     "artifact": {
-                        "path": "com/zero/retrowrapper/1.7.8/RetroWrapper-1.7.8.jar",
-                        "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/libraries/RetroWrapper-1.7.8.jar",
+                        "path": "com/zero/retrowrapper/1.7.8/retrowrapper-1.7.8.jar",
+                        "url": "https://zkitefly.github.io/unlisted-versions-of-minecraft/libraries/retrowrapper-1.7.8.jar",
                         "sha1": "ea9175b4aebe091ae8859f7352fe59077a62bdf4",
                         "size": 181263
                     }
