@@ -33,9 +33,7 @@ https://zkitefly.github.io/unlisted-versions-of-minecraft/version_manifest.json
 
 前往 `files` 目录中，找到你想下载的版本，下载该版本的 json 文件
 
-打开启动器的 `.minecraft` 目录
-
-进入 `versions` 目录，新建一个文件夹，命名为该 json 的名称
+打开游戏目录，进入 `versions` 目录，新建一个文件夹，命名为该 json 文件的名称，再将 json 文件放入其中
 
 回到启动器刷新版本列表即可找到该版本，启动游戏即可！
 
