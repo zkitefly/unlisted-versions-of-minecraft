@@ -19,6 +19,7 @@ https://zkitefly.github.io/unlisted-versions-of-minecraft/version_manifest.json
 ```diff
 - https://zkitefly.github.io/unlisted-versions-of-minecraft
 + https://raw.gitcode.com/zkitefly/unlisted-versions-of-minecraft/raw/main
++ https://vip.123pan.cn/1821946486/unlisted-versions-of-minecraft
 ```
 
 格式与 [version_manifest.json](https://zh.minecraft.wiki/w/Version_manifest.json) 保持一致
