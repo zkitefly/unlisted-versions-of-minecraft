@@ -245,7 +245,7 @@ def main():
             # 如果 id 是特定值，则替换特定的 URL
             if fid == "a1.1.1":
                 json_string = json.dumps(json_data)
-                json_string = json_string.replace("https://files.betacraft.uk/launcher/assets/lwjgl-2.9.3-grayscreenfix.jar", "https://zkitefly.github.io/unlisted-versions-of-minecraft/libraries/lwjgl-2.9.3-grayscreenfix.jar")
+                json_string = json_string.replace("http://files.betacraft.pl/launcher/assets/lwjgl-2.9.3-grayscreenfix.jar", "http://files.betacraft.uk/launcher/assets/lwjgl-2.9.3-grayscreenfix.jar")
                 json_data = json.loads(json_string)
 
             # 处理 c0.28_01 的日月颠倒问题
