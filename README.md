@@ -18,7 +18,6 @@ https://zkitefly.github.io/unlisted-versions-of-minecraft/version_manifest.json
 
 ```diff
 - https://zkitefly.github.io/unlisted-versions-of-minecraft
-+ https://raw.gitcode.com/zkitefly/unlisted-versions-of-minecraft/raw/main
 + https://vip.123pan.cn/1821946486/unlisted-versions-of-minecraft
 ```
 
