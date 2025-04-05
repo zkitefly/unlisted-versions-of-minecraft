@@ -37,6 +37,6 @@ https://zkitefly.github.io/unlisted-versions-of-minecraft/version_manifest.json
 
 回到启动器刷新版本列表即可找到该版本，启动游戏即可！
 
-<!-- ## 关于本仓库对旧版本的支持
+## 关于本仓库对旧版本的支持
 
-本仓库添加了 [NeRdTheNed/RetroWrapper](https://github.com/NeRdTheNed/RetroWrapper) 的补丁，以修复并正常运行旧版本。 -->
+本仓库不会添加任何修复补丁，如果你想获得比较良好的体验，可使用 [NeRdTheNed/RetroWrapper](https://github.com/NeRdTheNed/RetroWrapper) 的补丁，以修复并正常运行旧版本。
