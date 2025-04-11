@@ -1,5 +1,7 @@
 # Unlisted versions of Minecraft
 
+![](https://hits.zkitefly.eu.org/?tag=https://github.com/zkitefly/unlisted-versions-of-minecraft)
+
 ## 关于
 
 本仓库整理在启动器中未列出的版本，并提供启动器接口提供下载
