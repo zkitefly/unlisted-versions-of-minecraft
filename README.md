@@ -20,7 +20,7 @@ https://zkitefly.github.io/unlisted-versions-of-minecraft/version_manifest.json
 
 ```diff
 - https://zkitefly.github.io/unlisted-versions-of-minecraft
-+ https://alist.8mi.tech/d/unlisted-versions-of-minecraft/CT/
++ https://alist.8mi.tech/d/mirror/unlisted-versions-of-minecraft/Auto/
 ```
 
 格式与 [version_manifest.json](https://zh.minecraft.wiki/w/Version_manifest.json) 保持一致
